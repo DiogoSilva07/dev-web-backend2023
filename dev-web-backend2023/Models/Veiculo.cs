@@ -8,8 +8,6 @@ namespace dev_web_backend2023.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required(ErrorMessage ="Obrigatório informar o nome")]
-        public String Nome { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar a Placa")]
         public int Placa { get; set; }
