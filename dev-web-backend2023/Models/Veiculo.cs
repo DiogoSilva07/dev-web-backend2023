@@ -15,7 +15,7 @@ namespace dev_web_backend2023.Models
         [Required(ErrorMessage = "Obrigatório informar a Placa!")]
         public string Placa { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório informar o Ano de Fabricação")]
+        [Required(ErrorMessage = "Obrigatório informar o Ano de Fabricação!")]
         [Display(Name = "Ano de Fabricação")]
         public int AnoFabricação { get; set; }
 

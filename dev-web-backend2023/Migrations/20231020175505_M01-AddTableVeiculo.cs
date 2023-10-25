@@ -15,8 +15,8 @@ namespace dev_web_backend2023.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Placa = table.Column<int>(type: "int", nullable: false),
-                    AnoFabricação = table.Column<int>(type: "int", nullable: false),
+                    Placa = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    AnoFabricacao = table.Column<int>(type: "int", nullable: false),
                     AnoModelo = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
